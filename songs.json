@@ -339,6 +339,236 @@
             "melodi": "Och jungfrun hon går i dansen",
             "music": null,
             "fun_facts": null
+        },
+        {
+            "id": 35,
+            "genre": "visor_till_snaps",
+            "title": "Ex-Presidentvisa",
+            "text": "Kom i plåstervals!\nNya lackskorna slinter ej alls.\nJag rättar till mitt hår,\nhi å hej kammen flyger och går!\nPlåstervalsen går.\nIskalla nubbar på bordet det står,\njag blir full och går omkull\nallt för Salvekvicks skull",
+            "creator": null,
+            "melodi": "Kom i Kostervals",
+            "music": "D. Hellström",
+            "fun_facts": null
+        },
+        {
+            "id": 36,
+            "genre": "visor_till_snaps",
+            "title": "Trepointsvisan",
+            "text": "Vår Stubb, han har tre pointar,\nTre pointar har vår Stubb,\nMen har han ej tre pointar,\nBehöver han en nubb.\n\n(Mellansup)\n\nVår Stubb kom på tre pointar,\nVi höra dom nu skall:\n”Min nubb!” han ivrigt hojtar,\n”Var gratis, torr och kall!”",
+            "creator": "T. & E. Cederqvist",
+            "melodi": "Mitt hatt den har tre kanter",
+            "music": "R. Keiser",
+            "fun_facts": "Trepointsvisan vann guld i snapsvise-VM år 2024."
+        },
+        {
+            "id": 37,
+            "genre": "visor_till_snaps",
+            "title": "Dom som är nyktra",
+            "text": "Ref. Dom som är nyktra\ndom har inte nå’t roligt,\ndom har bara ansvar\noch inte nå’t tjolittan-lej faderulla,\nmen vi som är fulla\nvi har bara kul nästan jämt!\n\nDet sägs att en människa\nkan va’ utan brännvin.\nDet stämmer måhända\nmen se blott på den min\nsom pryder en absolutist,\nden e’ jävligt trist!\nDärför så sjunger vi så:\n\nDom som är nyktra…",
+            "creator": "B. Österberg",
+            "melodi": "Romance D’amour",
+            "music": "L. Lindfors",
+            "fun_facts": null
+        },
+        {
+            "id": 38,
+            "genre": "visor_till_snaps",
+            "title": "Rattataa",
+            "text": "Att dricka brännvin är en sed,\nsom ingen har oss lärt.\nFrån början vi ej kunde\nmen det var blott temporärt.\nVi lärde oss så småningom,\noch det var nog värt besvär’t.\nTutilurenbom, tutidalenpang,\ndet var nog värt besvär’t!\n\n//:Rattataa, så tar vi oss en tuting,\nrattataa, med mycket brännvin i.\nRattataa, rattataa,\ndricka brännvin gillar ja’,\nför jag blir så full och gla’!://",
+            "creator": null,
+            "melodi": "Ratataa, ur filmen ”Ratataa”",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 39,
+            "genre": "visor_till_snaps",
+            "title": "Konduktörsvisan",
+            "text": "Jag var stilig konduktör\njag var lång som en stör\njag drack brännvin\noch så la’ jag mej där tågena kör,\nmen numera är jag kort;\njag har benena bort’\noch nu blir det bara Invalid Port.",
+            "creator": "B. Österberg",
+            "melodi": "Polly Wolly Doodle",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 40,
+            "genre": "visor_till_snaps",
+            "title": "När som sädesbrännvin",
+            "text": "När som sädesbrännvin rinner nedför strupen\ngår min tanke till mitt gamla barndomshem,\ndär jag som fyraåring fick den första supen\nfrån den stora destillatorn i vårt hem.\nSå kom länsman,\ntog det käraste på jorden,\ntog den gamla apparaten med sig hem.\nNu står alla glasen tomma uppå borden\noch han bränner själv den gamla jävelen!",
+            "creator": null,
+            "melodi": "Barndomshemmet (När som sädesfälten)",
+            "music": "P. Dresser",
+            "fun_facts": null
+        },
+        {
+            "id": 41,
+            "genre": "visor_till_snaps",
+            "title": "Fordom odlade",
+            "text": "Fordom odlade man vindruvsranka,\nav vars saft man gjorde ädelt vin.\nNu man pressar saften ur en planka,\ndoftande som äkta terpentin.\n//:Höj din bägare o broder, syster,\nlåt den finska skogen rinna kall.\nNed för strupen, och om du är dyster,\nlåt oss supa upp en liten tall.://\nLåt oss supa upp en liten tall,\nlåt oss supa upp en liten granskog!",
+            "creator": null,
+            "melodi": "Längtan till landet (Vintern rasat)",
+            "music": "O. Lindblad",
+            "fun_facts": null
+        },
+        {
+            "id": 42,
+            "genre": "visor_till_snaps",
+            "title": "Uti min mage",
+            "text": "Uti min mage en längtan mig tär,\nkom hjärtans fröjd.\nDär råder en hunger som ropar så här:\nKom kryddsill och kall potatis,\nkom brännvin i quantum satis,\nkom allt som kan drickas,\nkom hjärtans fröjd.\n\nUti min mage en längtan mig tär,\nkom hjärtans kär.\nVill du mig något så har jag det här,\nkom Skåne och Aqua Vitæ,\nkom O.P. och allt vad sprit är,\nkom ljuva Genever,\nkom Överste.\n\nUti min mage en längtan mig tär,\nkom hjärtans fröjd.\nDär råder en hunger som ropar så här:\nKom famnande lena armar,\nkom läppar och sköna barmar,\nkom fagraste kvinnor,\nkom hjärtans fröjd.",
+            "creator": null,
+            "melodi": "Uti vår hage",
+            "music": "M. Trad.",
+            "fun_facts": null
+        },
+        {
+            "id": 43,
+            "genre": "visor_till_snaps",
+            "title": "Törsten rasar",
+            "text": "Törsten rasar uti våra strupar,\ntungan hänger torr och styv och stel.\nMen snart vankas stora, kalla supar,\nvar och en får sin beskärda del.\n//:Snapsen kommer, den vi vilja tömma,\ndenna nektar lik Olympens saft,\nkommer oss att våra sorger glömma.\nSnapsen skänker hälsa, liv och kraft.://\n\nHelan tänder helig eld i själen,\nhalvan rosar livet som en sky.\nTersen känns från hjässan ner i hälen,\nkvarten gör oss till en människa ny.\n//:Låt oss skåla med varann, go’ vänner,\nskål för våran levnadsglada lopp,\ntörstens eld på nytt i strupen bränner.\nLeve livet! Skål och botten opp!://",
+            "creator": null,
+            "melodi": "Längtan till landet (Vintern rasat)",
+            "music": "O. Lindblad",
+            "fun_facts": null
+        },
+        {
+            "id": 44,
+            "genre": "visor_till_snaps",
+            "title": "Jag har aldrig var’t på snusen",
+            "text": "Jag har aldrig var’t på snusen,\naldrig rökat en cigarr, halleluja!\nMina dygder äro tusen,\ninga syndiga laster jag har.\nJag har aldrig sett nå’t naket,\ninte ens ett nyfött barn, halleluja!\nMina blickar går mot taket,\ndärmed undgår jag frestarens garn.\n\nHalleluja…\n\nBacchus spelar på gitarren,\nSatan spelar på sitt handklaver.\nAlla djävlar dansar tango,\nsäg, vad kan man väl önska sig mer?\nJo, att alla bäckar vore brännvin,\nFinska viken fylld av Koffens öl,\nKoskis i varenda rännsten\noch punsch i varendaste pöl.\n\nHalleluja…",
+            "creator": null,
+            "melodi": "O, hur saligt att få vandra",
+            "music": "R. Lowry",
+            "fun_facts": null
+        },
+        {
+            "id": 45,
+            "genre": "visor_till_snaps",
+            "title": "Minne",
+            "text": "Minne!\nJag har tappat mitt minne!\nÄr jag svensk eller finne?\nKommer inte ihåg.\n\nInne!\nÄr jag ut’ eller inne?\nJag har luckor i minne,\nsån’ där små alko-hål.\nMen besinne:\nMan tätar med det brännvin man får\nfastän minnet och helan går!\n\nMinne?\nMuisti hävis, mut’ minne?\nJuhlista selvisimme,\nmuistikatkoja on.\n\nMinne?\nLähtisin vaikka minne,\nkunhan selvittäisimme\nmitä sattunut on.\nMutta tiedän mä keinon\nmikä auttaapi tuo:\nOta ryyppy, ja muistis juo!",
+            "creator": "B. Österberg, L. Hernberg",
+            "melodi": "Memory",
+            "music": "A. L. Webber",
+            "fun_facts": null
+        },
+        {
+            "id": 46,
+            "genre": "visor_till_snaps",
+            "title": "Liten Jumbo",
+            "text": "Liten Jumbo flyger över Sovjet.\nMiG-23 går upp och skjuter ner.\n//:Liten Jumbo störtar ner i havet,\nliten Jumbo flyger aldrig mer.://\n\nLiten ubåt simmar in i Sverige.\nLiten ubåt stöter på ett grund.\n//:Liten ubåt flyter upp till ytan,\nliten ubåt simmar aldrig mer.://\n\nLiten Ivan springer över stäppen.\nKpist smattrar, Ivan faller ner.\n//:Blod och slamsor sprides över stäppen,\nliten Ivan springer aldrig mer.://\n\nLitet kraftverk smäller uti Sovjet.\nRyssar dör som flugor runt omkring.\n//:Hela saken tystas ner av staten,\nlitet kraftverk finns ej längre mer.://\n\nLitet JAS-plan flyger över Stockholm.\nMotorn stoppar, piloten hoppar ut.\n//:Litet JAS-plan störtar ner i marken,\nlitet JAS-plan flyger aldrig mer.://\n\nJAS, JAS, JAS, du kan lita på MiG!",
+            "creator": null,
+            "melodi": "Katyusha",
+            "music": "M. Blanther",
+            "fun_facts": null
+        },
+        {
+            "id": 47,
+            "genre": "visor_till_snaps",
+            "title": "Spritbolaget",
+            "text": "Till spritbolaget ränner jag\noch bankar på dess port. (*Bank bank*)\nJag vill ha nå’t som bränner bra\noch gör mig skitfull fort.\nExpediten fråga’ och sa:\n”Hur gammal kan min herre va’?\nHar du nå’t leg, ditt fula drägg?\nKom hit tillbaks när du fått skägg!”\n\nMen detta var ju inte bra,\njag ska bli full ikväll.\nDå kom jag på en bra idé:\n”Dom har ju sprit på Shell!”\nMånga flaskor stod där på rad,\nVa’ bra, nu kan jag bli full och glad.\nDen röda drycken rann sen ner…\nnu kan jag inte se nå’t mer!",
+            "creator": "G. Bolinder, Elektrosektionen",
+            "melodi": "Du käre lille snickerbo",
+            "music": "G. Riedel",
+            "fun_facts": null
+        },
+        {
+            "id": 48,
+            "genre": "visor_till_snaps",
+            "title": "Metanol",
+            "text": "Metanol, metanol,\nen dryck för tuffa killar!\nMetanol, metanol,\nen dryck som blinda gillar!\n\nNär jag går med käppen sliten\nblir jag under spårvagnsskiten.\nMetanol, metanol,\ndu gamle, gode vän!",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 49,
+            "genre": "visor_till_snaps",
+            "title": "Härjarevisan",
+            "text": "Liksom våra fäder vikingarna i Norden\ndrar vi riket runt och super oss under borden.\nBrännvinet har bli’tt ett elixir,\nför kropp såväl som själ.\nKänner du dig liten och ynklig på jorden,\nväxer du med supen och blir stor uti orden,\nslår dig för ditt håriga bröst\noch blir en man från hår till häl!\n\nRef. Ja, nu ska vi ut och härja,\nsupa och slåss och svärja,\nbränna röda stugor,\nslå små barn och säga fula ord!\nMed blod ska vi stäppen färga,\nnu änteligen lär jag\nkunna dra nå’n verklig nytta\nav min Hermodskurs i mord.\n\nHurra, nu ska man äntligen få röra på benen,\nhela stammen jublar och det spritter i grenen.\nTänk att än en gång\nfå spränga fram på Brunte i galopp.\nDin doft, o kära Brunte,\när trots brist i hygienen\nför en vild mongol minst lika ljuv som syrenen.\nTänk att på din rygg\nfå rida runt i stan och spela topp.\n\nJa, nu ska vi…\n\nMordbränder är klämmiga, ta fram fotogenen\noch eftersläckningen tillhör just de fenomenen\ninom brandmansyrket\nsom jag tycker är nå’n nytta med.\nJag målar för mitt inre upp den härliga scenen,\nblodrött mitt i brandgult, ej ens prins Eugen\nen lika mustig vy kan måla\nens om han målade med sked!\n\nJa, nu ska vi…",
+            "creator": null,
+            "melodi": "Gärdebylåten",
+            "music": null,
+            "fun_facts": "Härjarevisan är skriven av Hans ”Hasse” Alfredsson för det\nnumera legendariska Lundaspexet ”Djingis Khan” 1956"
+        },
+        {
+            "id": 50,
+            "genre": "visor_till_snaps",
+            "title": "Gör mig till finlandssvensk",
+            "text": "För att va’ svensk krävs inte mycket,\nej någon särskild karaktär.\nTig bara stilla som en jycke\nför inget svårmod får det finnas där\n\nGör mig till finlandssvensk,\njag vill va halvutländsk\noch få va’ full på jobbet varje dag.\nDå får man slåss med kniv\noch ingen man med HIV\nhar gjort det farligt att små flickor ta.\n\nGå på IKEA ger mig ångest,\nSven-Bertil Taube ger allergi.\nI Sverige finns det bara kräftpest,\nmen i tusen sjöars land kan jag bli fri!\n\nGör mig till finlandsvensk,\njag vill va halvutländsk\noch köra bil som bara Mika kan.\nTänk att få vara tyst\nmen ändå ratta byst,\nfå prata svenska – men ändå va’ man.",
+            "creator": "M. Lyth, B. Bengtson, H. Grundberg",
+            "melodi": "Those were the days",
+            "music": "B. Fomin",
+            "fun_facts": null
+        },
+        {
+            "id": 51,
+            "genre": "visor_till_snaps",
+            "title": "Dance Macabre",
+            "text": "Runt kring vår stuga, små djävlar sluga\ntassa så tyst med bockfot och svans.\nVarulvar yla, isande kyla sveper i dimman fanstygets dans.\nBäva, o broder, lyssna och hör\nvrålen från gast som osalig dör.\nSatan han skrattar, flaskan han fattar, super tills dagen gryr.\n\nGastar och spöken skymtar i kröken,\ndödingar släpa ruttnande lik.\nBenrangel skramla, spökhänder famla,\nkväva din strupes rosslande skrik.\nHelvetes alla fasor släpps loss,\nFan rider här med hela sin tross.\nGöm dig i stugan, du har fått flugan, Dille det blir din lott!",
+            "creator": null,
+            "melodi": "Vårvindar friska",
+            "music": "M. Trad",
+            "fun_facts": null
+        },
+        {
+            "id": 52,
+            "genre": "visor_till_snaps",
+            "title": "Undulaten",
+            "text": "Jag är en liten undulat\nsom får så dåligt med mat,\nför dom jag bor hos, för dom jag bor hos\ndom är så snåla.\nDom ger mig fisk varenda dag,\ndet vill jag alls inte ha.\nJag vill ha brännvin, jag vill ha brännvin\nmed Coca-Cola™.\n\nJag är en stor och farlig varg\nsom är så helvetes arg,\nför uti skogen, för uti skogen\nfinns bara plantor.\nJag äter bär varenda dag,\ndet vill jag alls inte ha.\nJag vill ha småbarn, jag vill ha småbarn\noch gamla tantor.\n\nJag är en liten åkersork\nsom har så dåligt med ork,\nför här i myllan, för här i myllan\när dom i fyllan.\nJag tar en lur varenda dag,\ndet vill jag alls inte ta.\nJa, jag vill dricka, ja, jag vill dricka\ntills jag får hicka\n\nJag är en hund från Reykjavik\noch jag får alltid panik.\nNär det jag druckit, när det jag druckit\nger sig till känna!\nHär finns en gräsbevuxen hed\nmen int’ ett endaste träd.\nSå ni kan tro att, så ni kan tro att\ndet börjar spänna!\n\nFör jag är gårdagssillen jag\nsom ligger här: ”Goddag, goddag!”\nför den jag bor hos, för den jag bor hos\nmår lite illa.\nJag kommer opp såhär ibland\noch ser mig om lite grann,\nfast den jag bor hos, fast den jag bor hos\nint’ skulle villa.\n\nJag är en liten Verkeit,\nsom får så dåligt med sprit.\nJa’ vill ha djungel, ja’ vill ha djungel\noch en dunder.\nJag ska på Werket festa loss,\nmen absolut inte slåss.\nFör då ska klubbis, för då ska klubbis,\nkasta ut mig.",
+            "creator": "B. Österberg samt resten av Svenskfinland",
+            "melodi": "Med en enkel tulipan",
+            "music": "J. Sylvain",
+            "fun_facts": null
+        },
+        {
+            "id": 53,
+            "genre": "visor_till_snaps",
+            "title": "Strunt i sorger",
+            "text": "Strunt i sorger och bekymmer,\nnågot roligt ska man ha.\nSen när livets afton skymmer,\ndå är det slut på det roliga.\n//:Då går vi ut på vår balkong\noch sjunger denna enkla sång:\nHej dingeli-dong\nhej dingeli-dong\nhej dingeli-dingeli-dong.://",
+            "creator": "Fw E. Grünn och Serg. R. Johansson",
+            "melodi": null,
+            "music": null,
+            "fun_facts": "Visan är en del av en kompanivisa som skrevs i Kervo år 1939"
+        },
+        {
+            "id": 54,
+            "genre": "visor_till_snaps",
+            "title": "Vad i allsin dar’",
+            "text": "Vad i allsin dar’,\nhar du brännvin kvar?\nÄr du sparsam eller snål?\nSKÅL!",
+            "creator": null,
+            "melodi": "I Eksjö stad på Ränneslätt",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 55,
+            "genre": "visor_till_snaps",
+            "title": "Hur länge skall vi sitta här",
+            "text": "Hur länge skall vi sitta här med tomma glas,\nmed tomma glas,\nmed tomma glas?\nHur länge skall vi sitta här med tomma glas,\npå detta jävla skitkalas?",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 56,
+            "genre": "visor_till_snaps",
+            "title": "Kassen full",
+            "text": "Kassen full,\nförbi vår tull,\nhämtar jag hem med mig.\n//:Jag hämtar brännvin, genever och gin\noch allt så dricker jag själv.://",
+            "creator": null,
+            "melodi": "Vinden drar",
+            "music": "C. Borenius",
+            "fun_facts": null
+        },
+        {
+            "id": 57,
+            "genre": "visor_till_snaps",
+            "title": "Att vi är fulla",
+            "text": "Att vi är fulla det ser man på gången.\nAtt vi är lappar det hör man på sången.\n//:Huimaa, huimaa, huimaa, huimaa, huimaa,\nhuimaa, huimaa, huimaa, huimaa.://\n\n(fortsättning för tillräckligt berusad sångledare)\n\nSolo: Kuka helkkari vei mun mottorikelkka…\nAlla: lai-lai-lai-lai-lai-lai-lai\n\nHukkasin Skiidon kännipäissäni…\nlai-lai-lai-lai-lai-lai-lai\n\nLynksi kelkka, paska kelkka!\nlai-lai-lai-lai-lai-lai-lai\n\nMistä me saadaan uutta kelkkaa…\nlai-lai-lai-lai-lai-lai-lai\n\n(+ 82 verser som faller in)\n\nMutta mistä me saadaan Koskenkorvaa…\nlai-lai-lai-lai-lai-lai-lai",
+            "creator": null,
+            "melodi": "Lappluva",
+            "music": "P. Jönsson",
+            "fun_facts": null
         }
     ]
 }
