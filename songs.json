@@ -1,0 +1,344 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "genre": "pro_patria",
+            "title": "Vårt land",
+            "text": "Vårt land, vårt land, vårt fosterland,\nljud högt, o dyra ord!\n//:Ej lyfts en höjd mot himlens rand,\nej sänks en dal, ej sköljs en strand,\nmer älskad än vår bygd i nord,\nän våra fäders jord.://\nDin blomning, sluten än i knopp,\nskall mogna ur sitt tvång;\n//:se ur vår kärlek skall gå opp\nditt ljus, din glans, din fröjd, ditt hopp\noch högre klinga skall en gång\nvår fosterländska sång.://\nOi maamme, Suomi, synnyinmaa,\nsoi sana kultainen!\n//:Ei laaksoa, ei kukkulaa,\nei vettä, rantaa rakkaampaa\nkuin kotimaa tää pohjoinen,\nmaa kallis isien!://\nSun kukoistukses kuorestaan\nkerrankin puhkeaa,\n//:viel lempemme saa nousemaan\nsun toivos, riemus loistossaan,\nja kerran, laulus synnyinmaa\nkorkeemman kaiun saa.://",
+            "creator": "J. L. Runeberg, P. Cajander",
+            "melodi": null,
+            "music": "F. Pacius",
+            "fun_facts": null
+        },
+        {
+            "id": 2,
+            "genre": "pro_patria",
+            "title": "Modersmålets sång",
+            "text": "Hur härligt sången klingar\npå älskat modersmål!\nHan tröst i sorgen bringar,\nhan skärper sinnets stål!\nVi hört den sången ljuda\ni ljuvlig barndomstid,\noch en gång skall han bjuda\nåt oss i graven frid!\nDu sköna sång vårt bästa arv,\nfrån tidevarv till tidevarv,\nljud högt, ljud fritt\nfrån strand till strand\ni tusen sjöars land!\nVad ädelt fädren tänkte,\nvad skönt de drömt en gång,\ndet allt de åt oss skänkte\ni modersmålets sång.\nHur våra öden randas,\nden sången är oss kär.\nVår själ i honom andas,\nvår rikedom han är!\nDu sköna sång vårt bästa arv,\nfrån tidevarv till tidevarv,\nljud högt, ljud fritt\nfrån strand till strand\ni tusen sjöars land! ",
+            "creator": null,
+            "melodi": null,
+            "music": "J. Fr. Hagfors",
+            "fun_facts": null
+        },
+        {
+            "id": 3,
+            "genre": "pro_patria",
+            "title": "Hymn ur Finlandia",
+            "text": "O Finland, se, din morgonljusning randas,\noch natten skingras, hotfullt mörk och lång.\nHör lärkans röst med rymdens susning blandas,\nsnart rymden fylles av jubelsång.\nSe natten flyr och fritt du åter andas.\nDin morgon ljusnar, o fosterland.\nStig högt, vårt land, som du ur natt dig höjde.\nDen dag dig väntar, fritt och öppet möt\nmed samma kraft, med samma mod, du röjde,\nnär träldomsoket du sönderbröt.\nFörtrycket aldrig dig till jorden böjde.\nDitt verk dig väntar, o fosterland\nOi Suomi, katso, sinun päiväs koittaa.\nYön uhka karkoitettu on jo pois.\nJa aamun kiuru kirkkaudessa soittaa.\nKuin itse taivahan kansi sois.\nYön vallat aamun valkeus jo voittaa.\nSun päiväs koittaa, oi synnyinmaa\nOi nouse, Suomi, nosta korkealle.\nPääs seppälöimä suurten muistojen.\nOi nouse, Suomi, näytit maailmalle.\nSä että karkoitit orjuuden\nja ettet taipunut sä sorron alle.\nOn aamus alkanut, synnyinmaa",
+            "creator": "J. Rundt, V.A. Koskenniemi",
+            "melodi": null,
+            "music": "J. Sibelius",
+            "fun_facts": null
+        },
+        {
+            "id": 4,
+            "genre": "pro_patria",
+            "title": "Nylänningarnas marsch",
+            "text": "Det stormande havets mäktiga sång\nvart hjärta ibland oss känner,\nvid vår vagga den ljöd i vår barndom en gång,\noch den fostrar oss upp till männer.\n//:När molnen sig skocka, när luften känns kvav,\nnär det mörknar ibland uppå färden,\nsom en fläkt från det friska, det fria hav\nkäckt storma vi ut i världen.://\nFramåt bjuder vågornas väldiga lek,\nframåt glatt vindarna tåga,\nframåt då, I bröder, mot våld och svek,\nframåt mot det usla och låga!\n//:Som vågen blott strävar med jublande mod\natt få dö vid de älskade landen,\no, så låtom oss offra vårt liv, vårt blod,\nallt, allt för fädernestranden!://\nVad av fädren vi ärvt: vår härliga bygd,\nvårt ärliga hjärta, vår heder,\nvårt friska sinne, vår mandom, vår dygd,\nvår lag, vår rätt, våra seder;\n//:må vi lämna det allt vid vår ändalykt\nåt våra växande söner,\nvälsignat, förökat, förkovrat och tryggt\nAllsvåldige, hör våra böner!://",
+            "creator": "T. Lindh",
+            "melodi": null,
+            "music": "H. Borenius",
+            "fun_facts": null
+        },
+        {
+            "id": 5,
+            "genre": "pro_patria",
+            "title": "Björneborgarnas marsch",
+            "text": "Söner av ett folk, som blött\npå Narvas hed, på Polens sand,\npå Leipzigs slätter, Lützens kullar.\nÄn har Finlands kraft ej dött,\nän kan med oväns blod ett fält här färgas rött!\nBort, bort, vila, rast och fred!\nEn storm är lös, det ljungar eld\noch fältkanonens åska rullar;\nframåt, framåt led vid led!\nPå tappre män se tappre fäders andar ned\n//:Ädlaste mål\noss lyser på vår bana;\nskarpt är vårt stål\noch blöda är vår vana.\nAlla, alla käckt framåt!\nHär är vår sekelgamla frihets sköna stråt.://\n//:Lys högt, du segersälla fana,\nsliten av strider sen en grånad forntids dar,\nfram, fram, vårt ädla, härjade standar!\nÄn finns en flik med Finlands gamla färger kvar!://\nAldrig skall vår fosterjord\nav våldets makt ur oförblödda\nbataljoners armar ryckas;\naldrig ljuda skall det ord,\natt Finlands folk förrått sin fria bygd i nord.\nFalla kan den tappre blott.\nEj rygga för en faras hot,\nej svika, böjas och förtryckas.\nFalla, sköna krigarlott,\nbliv vår, sen för en seger än vi kämpa fått!\n//:Vapen i hand\noch käckt vår ovän nära!\nDö för vårt land\när leva för vår ära.\nRastlöst fram från strid till strid,\nty nu är stunden vår och nu är skördens tid!://\n//:Glesnare leder vittne bära\nhärligt om mod och bragder, om vårt lands försvar.\nFram, fram, vårt ädla, trotsiga standar!\nOmkring dig än din trogna finska vakt du har!://",
+            "creator": "J. L. Runeberg",
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 6,
+            "genre": "pro_patria",
+            "title": "Wasa marsch",
+            "text": "I högan nord vår vagga stod\nvid stormigt haf och skummig flod.\nVi vexte upp ur frostig bädd\nsom vintergran, i drifvor klädd.\nHan står så grön i hvita snön,\nhan reser stark sin kronas park\n//:ur armod och ur ödemark.://\nHan reser stark sin kronas park\nur armod och ur ödemark.\nSom tusen vågor sammangå\nkring Finlands bygd i gördel blå,\nså mötas hjertan, mötas namn,\no, fosterland, uti din famn.\nAtt bära glatt din fanas skatt,\natt kämpa med i främsta led\n//:var fäders bragd, var Wasa sed.://\nAtt kämpa med i främsta led\nvar fäders bragd, var Wasa sed.",
+            "creator": "Z. Topelius",
+            "melodi": null,
+            "music": "K. Collan",
+            "fun_facts": null
+        },
+        {
+            "id": 7,
+            "genre": "pro_patria",
+            "title": "Studentsång",
+            "text": "//:Sjungom studentens lyckliga dag,\nlåtom oss fröjdas i ungdomens vår.\nÄn klappar hjärtat med friska slag,\noch den ljusnande framtid är vår.://\n//:Inga stormar än i våra sinnen bo,\nhoppet är vår vän, och vi dess löften tro,\nnär vi knyta förbund i den lund,\ndär de härliga lagrarna gro,\ndär de härliga lagrarna gro.\nHurra!:// ",
+            "creator": "H. Sätherberg",
+            "melodi": null,
+            "music": "Prins Gustaf",
+            "fun_facts": null
+        },
+        {
+            "id": 8,
+            "genre": "pro_patria",
+            "title": "Källan",
+            "text": "Jag sitter, källa, vid din rand\noch ser på molnens tåg,\n//:hur, ledda av en osedd hand,\nde växla i din våg.://\nDär kom en sky, den log så röd,\nsom rosenknoppen ler.\n//:Farväl! Hur snart farväl den bjöd,\nför att ej komma mer.://\nDock, där en annan mera klar\noch strålande igen!\n//:Ack, lika flyktig, lika snar,\nförsvinner även den.:// ",
+            "creator": "J. L. Runeberg",
+            "melodi": null,
+            "music": "F. Ehrström",
+            "fun_facts": null
+        },
+        {
+            "id": 9,
+            "genre": "pro_patria",
+            "title": "De Brevitate Vitæ (Gaudeamus)",
+            "text": "//:Gaudeamus igitur, iuvenes dum sumus!://\nPost iucundam iuventutem, post molestam senectutem\n//:nos habebit humus.://\n//:Ubi sunt, qui ante nos in mundo fuere?://\nScandite ad superos, vadite ad inferos!\n//:Ubi jam? Fuere!://\n//:Vita nostra brevis est brevi finietur.://\nVenit mors velociter, raptat nos atrociter,\n//:nemini parcetur.://\n//:Vivat academia, vivant professores!://\nVivat membrum quodlibet, vivant membran quælibet\n//:semper sint in flore!://\n//:Vivant omnes virgines, faciles formosæ!://\nVivant et mulieres, teneræ, amabiles\n//:bonæ laboriosæ!://\n//:Vivat et res publica et qui illam regit!://\nVivat nostra civitas, mæcenatum caritas,\n//:quæ nos hic protegit!://\n//:Pereat tristitia, pereant osores!://\nPereat diabolus, quivis antiburschius,\n//:atque irrisores!:// ",
+            "creator": null,
+            "melodi": null,
+            "music": "M. Trad.",
+            "fun_facts": null
+        },
+        {
+            "id": 10,
+            "genre": "pro_patria",
+            "title": "Integer Vitæ",
+            "text": "Integer vitae scelerisque purus\nnon eget Mauris iaculis neque arcu\nnec venenatis gravida sagittis,\nFusce, pharetra.\nSive per Syrtis iter aestuosas\nSive facturus per inhospitalem\nCaucasum vel quae loca fabulosus\nLambit Hydaspes.\nNamque me silva lupus in Sabina,\nDum meam canto Lalagen et ultra\nTerminum curis vagor expeditis,\nFugit inermem.\nKärlek av höjden värdes beskära.\nLär oss att leva helt till din ära.\nVida kring jorden gånge din lära,\nkomme ditt rike.\nHeligt och troget lär oss strida,\nvilligt och stilla lär oss att lida,\nseger och vila lär oss att bida\nsist i ditt rike.",
+            "creator": "H. Flacchus",
+            "melodi": null,
+            "music": "F. F. Flemming",
+            "fun_facts": null
+        },
+        {
+            "id": 11,
+            "genre": "pro_patria",
+            "title": "Verkeitens sång",
+            "text": "Till TF och Hanken dit går man nog på fest,\nmen uti Verkets källare är festen allra bäst.\nTrots brist på servitriser och annan personal\nså känns det som man skulle va’ på världens största bal.\nRef. Å så svänger vi på sejdelen, vi svänger den igen.\nVi tar helan, halvan, tersen, vi tar kvarten om igen.\nOch så hamna vi på fyllefest bland fyllesvin igen\noch i morgon så tar vi lilla återställaren.\nFör det är ölkväll uppå Verket det är ölkväll nu igen,\ndet är här som man träffas och man skaffar sig en vän.\nVi vill trivas, vi vill njuta, vi vill dansa natten lång,\nvi vill höra alla sjunga våran egna lilla sång.\nÅ så svänger vi…",
+            "creator": null,
+            "melodi": "Hymn till Sovjetunionen",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 12,
+            "genre": "visor_till_snaps",
+            "title": "Fågeln",
+            "text": "En liten fågel satt en gång\noch sjöng i furuskog.\nHan hade sjungit dagen lång,\nmen dock ej sjungit nog.\nVad sjöng den lilla fågeln då?\nJo!",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 13,
+            "genre": "visor_till_snaps",
+            "title": "Helan går",
+            "text": "Helan går,\nsjung hoppfadderallanlallanlej!\nHelan går,\nsjung hoppfadderallanlej.\nOch den som inte helan tar,\nhan ej heller halvan får.\nHelan går,\nsjung hoppfadderallanlej!",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 14,
+            "genre": "visor_till_snaps",
+            "title": "Än går det vågor",
+            "text": "Och än går det vågor i halvankaren,\ni halvankaren, i halvankaren.\nOch än går det vågor i halvankaren,\ni halvankaren går det vågor än.\nOch så rullar vi på kuttingen igen min vän,\ndet går vågor än uti halvankaren.\nOch så rulla vi på kuttingen igen min vän,\ndet går vågor än i den.",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 15,
+            "genre": "visor_till_snaps",
+            "title": "Stridsrop! Halvan",
+            "text": "Hur länge skall på borden,\nden lilla halvan stå?\nSkall snart ej höras orden:\n”Låt halvan gå, låt gå!”\nDet ärvda vikingsinne\ntill bägar’n trår igen\noch helans trogna minne,\ni halvan går igen.",
+            "creator": null,
+            "melodi": "Hur länge skall i norden",
+            "music": "G. Wennerberg",
+            "fun_facts": "Travesti på Gunnar Wennerbergs verk ”Hur länge skall i norden”\nsom uruppfördes 1854 i Uppsala. Sången introducerades till finska\nstudentkretsar av Akademiska Sångföreningen år 1897."
+        },
+        {
+            "id": 16,
+            "genre": "visor_till_snaps",
+            "title": "Halvan är så liten",
+            "text": "Halvan är så liten, halvan är så rar,\nhalvan är så ensam och längtar efter far.\nStår där som förr i lampans sken,\nen liten, liten frusen en.\nSträck ut din hand och tag\ndin halva i ett drag!",
+            "creator": null,
+            "melodi": "Lili Marleen",
+            "music": "N. Schultze",
+            "fun_facts": null
+        },
+        {
+            "id": 17,
+            "genre": "visor_till_snaps",
+            "title": "Helan gick i vänstra foten",
+            "text": "Helan gick i vänstra foten,\nbomfaderi och faderaderalla.\nGudskelov så vet jag boten,\nbomfaderi faderallanlej.\nHalvan ställer saken rätt,\nbomfaderi faderallanlej.\nHugg i! Och dra!\nPå nubbar blir man aldrig mätt,\nbomfaderi faderallanlej.",
+            "creator": null,
+            "melodi": "Har ni sett Amanda Lundbom",
+            "music": "E. Norlander",
+            "fun_facts": null
+        },
+        {
+            "id": 18,
+            "genre": "visor_till_snaps",
+            "title": "Helan så ensam",
+            "text": "Helan så ensam i magen gick,\nundrade varför ej sällskap den fick.\nMor lilla säg, var är halvan i kväll,\nskicka den genast hit ner, är du snäll.",
+            "creator": null,
+            "melodi": "Mors lilla Olle",
+            "music": "A. Tegnér",
+            "fun_facts": null
+        },
+        {
+            "id": 19,
+            "genre": "visor_till_snaps",
+            "title": "Mumins halva",
+            "text": "När helan är tagen\ndå väntar ju magen\npå halvan.\nFör helan togs först den\nmen nu pockar törsten\npå halvan.\nImmig i glasen den kall mot oss ler,\nlänge behöver vi ej vänta mer\npå halvan, på halvan, på halvan.",
+            "creator": "L. von Hertzen",
+            "melodi": "Mumin",
+            "music": "B. Törnroos",
+            "fun_facts": null
+        },
+        {
+            "id": 20,
+            "genre": "visor_till_snaps",
+            "title": "Fordom gällde lagen",
+            "text": "Fordom gällde lagen, ”den som spar han har.”\nMottot är för dagen: ”Lämna inget kvar!”\nTöm i botten fyllda måtten,\nej som skotten slanten spar!\nAnnars utav potten staten halvan tar!",
+            "creator": null,
+            "melodi": "Kors på Idas grav",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 21,
+            "genre": "visor_till_snaps",
+            "title": "Fjärran han dröjer",
+            "text": "Fjärran han dröjer från törstiga strupar\nredan vi tagit två modiga supar.\nAck lilla tersen, ack lilla hjärtevännen,\nkommer du ej snart?\nJo, jag kommer strax!\nKauan hän viipyy, ei kuulu tulevaksi,\nkurkussamme nyt on vasta ryyppyä kaksi.\nKolmas olis vuorossa,\nhuokaiskaamme kuorossa:\n”Kun et tule jo, kun et tule jo!”",
+            "creator": null,
+            "melodi": "Tuoll’ on mun kultani",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 22,
+            "genre": "visor_till_snaps",
+            "title": "Att helan kan gå",
+            "text": "Att helan kan gå är bevisat ren\noch halvan kan stå på en fot som ben\nav tersen har endel sett ramla omkull\nså vi sitter och dricker\n– för säkerhets skull!",
+            "creator": "B. Österberg",
+            "melodi": "Mors lilla Olle",
+            "music": "A. Tegnér",
+            "fun_facts": null
+        },
+        {
+            "id": 23,
+            "genre": "visor_till_snaps",
+            "title": "Burkens kvart",
+            "text": "//:Helan blev liten men halvan den blev stor,\nännu tersen bränner i djupen.://\n//:Kvarten smeker, djävulen han leker\nbedrager både kropp och själ.://",
+            "creator": "J. ”Burken” Karsten",
+            "melodi": null,
+            "music": "K. Collan",
+            "fun_facts": null
+        },
+        {
+            "id": 24,
+            "genre": "visor_till_snaps",
+            "title": "Imbelupet",
+            "text": "Imbelupet glaset står på bräcklig fot.\nKalla pilsnerflaskor lutar sig därmot.\nMen där nere, miserere,\n...uti magens avgrundsdjup,\nsitter djävulen och väntar på en sup!\n...uti magens välvda valv,\nvandrar djävulen och ropar på en halv!\n...uti magen härs och tvärs,\nkilar djävulen och skriker på en ters!\n...uti magens djup så svart,\nlöper djävulen och skränar på en kvart!\n...uti magens labyrint,\nirrar djävulen och tjoar på en kvint!\n...uti magens slingerväxt,\nspringer djävulen och skriar på en sext!\n...uti magen halvuppknäppt,\nrusar själve phan och vrålar på en sept!\n...uti magen an och av,\nvankar djävulen och väser på oktav!\n(Toinen kotimainen)\nEessäs napsulasi jäinen horjuvi.\nVastapäätään vaahtopäinen pilsneri.\nMutta tässä ikävässä,\nvatsan kuilun pohjalla,\nvanha Lusihveerus vartoo napsua.\n(A’ la stadin kundi)\nFramill’ on yks gimis kalsa flitshari,\nmessis’ sill’ on snadi ööliglasari.\nBelsebub, se stärä gubbe,\nmagan dunkliss’ himassans,\nbrassaa: ”Eksä, kundi, stikkaa motoos kans?”\n(Auf Deutsch)\nKühle Branntweingläser steh’n auf leichtem Fuss,\nrandgefülltes Pilsner sendet seinen Gruss.\nDoch hier unten in dem bunten dunklen\nTief’ des Magensacks,\nalter Belzebub schon wartet auf ein’ Schnaps.\n(Danska)\nKölig Ålborg står på bord på skör fod,\ngammel Carlsberg-lager står der midtimod,\nmen i mavens mörke tunnel\nsidder Fänden med sin tragt\nog siger: -Hvorfor tar I ikke sidste skvat?\n(In English)\nDewy glasses stay in lines on fragile feet,\nfilled with claret ale and spicy aquavit.\nBut on the bottom of the stomach\nwaiting Belzebub now bursts:\nTake a drink this moment or I’ll die of thirst!",
+            "creator": null,
+            "melodi": "Kors på Idas grav",
+            "music": "J. Berger",
+            "fun_facts": null
+        },
+        {
+            "id": 25,
+            "genre": "visor_till_snaps",
+            "title": "Fysiken fin",
+            "text": "Vill du ha fysiken fin\nskall du bara dricka brännevin.\nVill du ha din mage bra\nskall du göra det varenda dag.\nVill du ha ett gott humör\nskall du dricka det uti ett kör.\nTy brännevin, ja brännevin\ndet gör din mage och fysiken fin.",
+            "creator": null,
+            "melodi": "Alte Kameraden",
+            "music": "C. Teike",
+            "fun_facts": null
+        },
+        {
+            "id": 26,
+            "genre": "visor_till_snaps",
+            "title": "Skärgårdsidyll",
+            "text": "Det satt en mås på en klyvarbom\noch tom i krävan var kräket.\nOch tungan lådde vid skeppar’ns gom,\ndär han satt uti bleket.\n”Jag vill ha sill”, hördes måserope’\noch skeppar’n svarte: ”Jag vill ha O.P.”\nOm blott jag får, om blott jag får.\nDet satt en mås på en klyvar-\nBOM! TRÄFF! SJÖNK!",
+            "creator": null,
+            "melodi": "När månen vandrar",
+            "music": "K. Lagerlöf",
+            "fun_facts": null
+        },
+        {
+            "id": 27,
+            "genre": "visor_till_snaps",
+            "title": "Skärgårdstragedi",
+            "text": "Den mås som satt på en klyvarbom\nden är nu död och begraven.\nOch skeppar’n som drack en flaska rom\nhan har drunknat i haven.\nSå kan det gå om man fått för mycke’,\nom man för brännvin har fattat tycke.\nVi som har kvar, vi resten tar*.",
+            "creator": null,
+            "melodi": "När månen vandrar",
+            "music": "K. Lagerlöf",
+            "fun_facts": "*Alternativt ”sparsamt tar” för de mindre törstiga."
+        },
+        {
+            "id": 28,
+            "genre": "visor_till_snaps",
+            "title": "Båtvisa",
+            "text": "Och så kommer där en ångbåt, som säger ”Tuuuut!”\nOch så kommer där en ubåt, som säger: ”...” (Gurgla med\nsnapsen!)\nJa sitten tulee pieni höyrylaiva, kun sanoo: ”Tyt!”\nOch så kommer där ett flygplan, som säger ”...” (Spruta med\nsnapsen mot den som sitter mitt emot!)",
+            "creator": null,
+            "melodi": "En lille rystedans",
+            "music": "E. Brink",
+            "fun_facts": null
+        },
+        {
+            "id": 29,
+            "genre": "visor_till_snaps",
+            "title": "Internationalen",
+            "text": "Mera brännvin i glasen,\nmera glas på vårt bord!\nMera bord på kalasen,\nmera kalas på vår jord.\nMera jordar kring månen,\nmera månar kring Mars!\nMera marscher till Skåne,\n\nLisää viinaa mun lasiin,\nlisää laseja pöydälle!\nLisää pöytiä näihin juhliin,\nlisää juhlia kansalle.\nLisää kansaa Suomeen,\nlisää Suomea päälle maan,\nlisää maata (Suur)Suomelle,\nmarssitaan, marssitaan, Karjalaan, Karjalaan!",
+            "creator": "H. Dalborg (Svenska verserna)",
+            "melodi": "L’Internationale",
+            "music": "P. Degeyter",
+            "fun_facts": null
+        },
+        {
+            "id": 30,
+            "genre": "visor_till_snaps",
+            "title": "I sommarens soliga dagar",
+            "text": "Du som är ung kom med och sjung\noch sitt ej hemma slö och tung.\nVår sångartropp, den gångar opp\npå bergets allra högsta topp.\nI sommarens soliga dagar,\nvi sjunga var vi gå: HALLÅ, HALLÅ!",
+            "creator": "G. Johansson",
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 31,
+            "genre": "visor_till_snaps",
+            "title": "Gäddan",
+            "text": "Uppå väggen går en gädda,\nmed långa ludna, svarta ben.\n//:Men ni skall inte vara rädda,\ntag en sup och allt går väl.://\n\nVita möss som går i taket,\nråma hest och falla ner.\n//:Men ni skall inte vara rädda,\ntag en sup och allt går väl.://\n\nDet skall fan va’ yrkeskvinna,\nmed långa ludna, svarta ben.\n//:Men ni skall inte vara rädda,\ntag en sup och allt går väl.://\n\nKaton rajas kulkee hauki,\npahaa taitaa tarkoittaa.\n//:Kierrä pullon korkki auki,\nryyppy pedon karkoittaa.://\n\nAck va’ svart det är om natten,\nack va’ gult är månens sken.\n//:Ack va’ grönt är avloppsvatten,\nakvavit för våra ben.://\n\nVodka, vodka vill jag dricka,\njag vill äta kaviar.\n//:Jag vill älska russkij flicka,\njag vill spy i samovar.://\n\nKoskenkorva vill jag dricka,\njag vill gå på kräftkalas.\n//:Jag vill älska Suomi-neito,\njag vill spy i Aaltovas.://\n\nPå Werket, Werket vill jag dricka,\nsupa billigt varje fest.\n//:Och när taivas lyö tulta,\när det jag som svettas mest.://",
+            "creator": null,
+            "melodi": "Stenka Rasin",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 32,
+            "genre": "visor_till_snaps",
+            "title": "Livet är härligt",
+            "text": "//:Livet är härligt!\nTavaritj, vårt liv är härligt!\nVi alla våra små bekymmer glömmer,\nnär vi har fått en tår på tand,\nen skål!\n\nTa dig en vodka!\nTavaritj en liten vodka!\nGlasen i botten vi tillsammans tömmer,\ndet kommer mera efter hand.://\nEn skål!",
+            "creator": "Chalmersspexet",
+            "melodi": "Röda kavalleriet",
+            "music": "L. Knipper",
+            "fun_facts": "Livet är härligt härstammar från\nChalmersspexet ”Katarina II” 1959.\nVisan påbörjar sittningar (sitzer) vid\nChalmers tekniska högskola i Göteborg"
+        },
+        {
+            "id": 33,
+            "genre": "visor_till_snaps",
+            "title": "Tycker du som jag",
+            "text": "Tycker du som jag, så nubbar vi,\nty nubben gör dig glad och fri.\nVi tar en, vi tar två,\nvi tar tre, fyra, fem,\noch alla så tar vi med kläm!\n\nSola hon går upp och ned,\noch vi följer alla med,\nför tussilullan-lull,\nnär jag är full,\ndå e’ ja’ så go’ som gull.",
+            "creator": null,
+            "melodi": "Tycker du som jag så rider vi",
+            "music": "A. Lindgren",
+            "fun_facts": null
+        },
+        {
+            "id": 34,
+            "genre": "visor_till_snaps",
+            "title": "Presidentvisa",
+            "text": "Och Mauno han satt på Gullranda,\nhojta på frun.\nMen hon satt i andra ändan\nuti sin paulun.\nDet eka i valven som vette mot norr-orr-orr-orr-orr,\nnär Mauno gick till skåpet\nför att ta sig en knorr-orr-orr-orr-orr-orr.\n\n”Kom hit ska vi ta en tuting,\nfru Tellervo-vo-vo-vo-vo-vo!”\nMen Tellervo skrek tillbaka:\n”Nej Mauno, nå, nå-nå-nå-nå!”\nMen avståndet gör att man kan vara viss-viss-viss-viss-viss,\natt Mauno hann svälja\noch säga: ”Kippis-piss-piss-piss-piss-piss.”",
+            "creator": "B. Österberg",
+            "melodi": "Och jungfrun hon går i dansen",
+            "music": null,
+            "fun_facts": null
+        }
+    ]
+}
