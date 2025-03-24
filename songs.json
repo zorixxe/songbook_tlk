@@ -889,6 +889,166 @@
             "melodi": "När månen vandrar",
             "music": "K. Lagerlöf",
             "fun_facts": null
+        },
+        {
+            "id": 90,
+            "genre": "visor till snaps",
+            "title": "Siffervisan",
+            "text": "1, 2, 75, 6, 7, 75, 6, 7, 75, 6, 7\n1, 2, 75, 6, 7, 75, 6, 7, 73.\n107, 103, 102\n107, 6, 19, 27\n17, 18, 16, 15\n13, 19, 14, 17\n19, 16, 15, 11\n8, 47!",
+            "creator": null,
+            "melodi": "Ritsch, ratsch",
+            "music": "M. Trad",
+            "fun_facts": null
+        },
+        {
+            "id": 91,
+            "genre": "visor till snaps",
+            "title": "Vikingen",
+            "text": "En viking älskar livets vann,\nhurra, hurra!\nDen hastigt i mitt svalg försvann,\nhurra, hurra!\nTill kalv, till oxe, till fisk, till fläsk,\nnär alla kärringar vill ha läsk.\nJa, då vill alla vikingar ha en bäsk.\n\nNär vi har druckit bäsken slut,\ntragik, tragik!\nDå bäres varje viking ut,\nsom lik, sig lik.\nOch sen om vi vaknar, vi sjunger en bit,\nsen korkar vi upp Skånes Akvavit;\nskål för alla vikingar som kom hit!",
+            "creator": "O. Ekdahl, Elektrosektionen 1981",
+            "melodi": "When Johnny comes marching home",
+            "music": "M. Trad",
+            "fun_facts": null
+        },
+        {
+            "id": 92,
+            "genre": "visor till snaps",
+            "title": "BASIC",
+            "text": "10 LET oss nu fatta i våra glas\n20 INPUT en klunk utav det som där has\n30 IF du fått nog THEN till 50 min vän\n40 ELSE GOTO-baka till 10 igen\n50 END",
+            "creator": null,
+            "melodi": "Mors lilla Olle",
+            "music": "A. Tegnér",
+            "fun_facts": "10 LET sitz = -1\n20 IF sitz THEN PRINT ”SNAPS”"
+        },
+        {
+            "id": 93,
+            "genre": "visor till snaps",
+            "title": "Brännvinskällaren på söder",
+            "text": "Skål, bröder är vi alla!\nVi skall supa, tills vi falla,\nja, tiden för oss alla lider,\nja, tiden för oss alla lider,\nlider, lider,\nja, tiden för oss alla lider*.\n\nSen när jag blivit döder,\nskild ifrån mina bröder,\nja, skild ifrån mina bröder,\nfrån brännvinskällaren på söder,\nsöder, söder,\nfrån brännvinskällaren på söder.",
+            "creator": null,
+            "melodi": null,
+            "music": null,
+            "fun_facts": "*För humorns skull kan ”lider” ersättas med ”vedbod”."
+        },
+        {
+            "id": 94,
+            "genre": "visor till snaps",
+            "title": "Jag ska festa",
+            "text": "Jag ska festa, ta det lugnt med spriten,\nha det roligt utan å va’ full.\nInte krypa runt med festeliten,\nta det varligt för min egen skull.\n\nFörst en öl i torra strupen,\nefter det så kommer supen,\ni med vinet, ner med punschen.\nSist en groggbuffé.\n\nJag är skitfull, däckar först av alla,\nmissar festen, men vad gör väl de’?\nBlandar hejdlöst öl och gammal filmjölk,\nkastar upp på bordsdamen breve’!",
+            "creator": null,
+            "melodi": "Bamsevisan",
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 95,
+            "genre": "visor till snaps",
+            "title": "När mot Werket vi går",
+            "text": "När mot Werket vi går, för att ta en tår\nkan man lycklig känna sig.\nVarje glas är höjt, alla ler förnöjt\npå vårt underbara gulej.\nMen ta en sup ner mot magens djup,\nså att vi kan glömma all misär.\nFastän tenten var tung, så är natten ung\ni vår egna källare här.\n\nNär vi helan ta, då är livet bra,\nbrännvin undergör inom mig!\nDu må sakna ork, efter timmar om Volt,\nmen drick då jag skålar med dig.\nLåt halvan vackert glida ned\nbland sillar och ost och mycket mer.\nÄr ej dunder gott? Jo det bästa vi fått,\nJo tack, fyll på mitt mått!",
+            "creator": "S. Geust",
+            "melodi": "Mer hahn en neue Oberkeet, BWV 212",
+            "music": "J.S. Bach",
+            "fun_facts": null
+        },
+        {
+            "id": 96,
+            "genre": "visor till snaps",
+            "title": "Gå på fest",
+            "text": "När som livet kännes mörkt och grått och trist,\ngå på fest.\nNär humöret allt emedan du mist,\ngå på fest.\nNär du tror att allting grånar,\nska du se att himlen blånar,\nsommarns blommor dig förvånar,\ngå på fest!\n\nÄr du vissen klen och trött och matt och svag,\ngå på fest.\nSkulle hjärtat bara slå varannat slag,\ngå på fest.\nStrunt i doktorn och recepter,\nmedicin och farmacepter,\nsluta upp och känna efter,\ngå på fest!",
+            "creator": null,
+            "melodi": "Du ska få min gamla cykel",
+            "music": "M. Trad",
+            "fun_facts": null
+        },
+        {
+            "id": 97,
+            "genre": "visor till snaps",
+            "title": "Nu tar vi den",
+            "text": "Nu tar vi den,\nnu tar vi den,\nnu tar vi den,\nnu tar vi den.\n\n(Nubben avnjuts)\n\nNu tog vi den!",
+            "creator": null,
+            "melodi": "O, Tannenbaum",
+            "music": "M. Trad",
+            "fun_facts": null
+        },
+        {
+            "id": 98,
+            "genre": "visor till snaps",
+            "title": "Jag tror på akvavit",
+            "text": "Jag tror, jag tror på akvavit.\nJag tror, jag tror på dynamit.\nDen ger en kraft att sjunga ut\noch alla krämpor blir akut.\nMan glömmer vardagslivets jäkt\noch känner stundens ruseffekt.\nEn snaps, en skål, en trudelutt\noch sen så tar vi våran hutt!",
+            "creator": null,
+            "melodi": "Jag tror på sommaren",
+            "music": "S. Olin.",
+            "fun_facts": null
+        },
+        {
+            "id": 99,
+            "genre": "visor till snaps",
+            "title": "Lille sup",
+            "text": "Lille sup, lille sup,\nlille söte supen,\nnu ska du, nu ska du,\nner igenom strupen.",
+            "creator": null,
+            "melodi": "Lille katt",
+            "music": "G. Riedel",
+            "fun_facts": null
+        },
+        {
+            "id": 100,
+            "genre": "visor till snaps",
+            "title": "Djupt nere i källaren",
+            "text": "Djupt ner i källaren står apparaten\nsom gör små droppar att ha till maten\nden kokar pärer, den kokar jäst\nmen sir du, brännvin den kokar bäst!\n\nNu vi har varit på så många ställen\nså vi är säkra nu på vad som gäller\nhär duger ej med något gammalt gin.\nDet ska va´ hemkokat brännevin!\n\nOch i vår mage nu det börjar plaska\nså att det hörs ända till Alaska.\nKänn hur det strömmar i strupen ner\noch lite värme i livet ger.",
+            "creator": null,
+            "melodi": "En sockerbagare",
+            "music": "A. Tegnér",
+            "fun_facts": null
+        },
+        {
+            "id": 101,
+            "genre": "visor till snaps",
+            "title": "Halta Lottas krog",
+            "text": "Bröder, viljen i gå med oss?\nBröder, viljen i gå med oss?\nBröder, viljen i gå med oss?\nUppå Halta Lottas krog i Göteborg.\n\nJa, visst vilja vi gå med er…\nUppå Halta Lottas krog i Göteborg.\n\nFemton öre kostar supen…\nUppå Halta Lottas krog i Göteborg\n\nVi som inga pengar hava…\nUppå Halta Lottas krog i Göteborg.\n\nHvarmed skola vi betala?..\nUppå Halta Lottas krog i Göteborg.\n\nMed kyssar skola vi betala…\nUppå Halta Lottas krog i Göteborg.\n\nVem skall dessa kyssar hava?..\nUppå Halta Lottas krog i Göteborg.\n\nHalta Lotta har en syster…\nUppå Halta Lottas krog i Göteborg.\n\nHon ska dessa kyssar hava…\nUppå Halta Lottas krog i Göteborg.\n\nHalta Lotta hon är döder…\nUppå Halta Lottas krog i Göteborg.\n\nHalta Lotta är begraven…\nUppå Norra Kyrkogår’n i Göteborg.\n\nHundar pissar uppå graven…\nUppå Norra Kyrkogår’n i Göteborg.\n\nMaskar kräla uppå liket…\nUppå Norra Kyrkogår’n i Göteborg.\n\nStaten har nu tagit över…\nUppå Halta Lottas krog i Göteborg.\n\nFemti’ öre kostar supen…\nUppå Halta Lottas krog i Göteborg.",
+            "creator": null,
+            "melodi": "Battle Hymn of the Republic",
+            "music": "W. Steffe",
+            "fun_facts": "Halta Lottas krog var en krog i Göteborg fram till 1870-talet.\nStamkunderna bestod främst av artillerister från närliggande\nBorgerskapets kasern. Halta Lotta var känd för sitt glada humör\noch sin sångglada karaktär."
+        },
+        {
+            "id": 102,
+            "genre": "visor till snaps",
+            "title": "Morgonvisa",
+            "text": "Rönnerdahl han skuttar\nmed ett skratt ur sin säng.\nFastnar i sitt lakan, slår näsan i sänggaveln.\nRullar ner på golvet i en våghalsig sväng,\nslutar sen att skratta när hans stortå får däng.\nVirrig i sin hjärna, han reser sig på knä\noch ser då mången stjärna\nfast morgon de nu är\noch se så många märken som redan slagit ut på benen,\nblåa och vackra i morgonens svaga ljus.",
+            "creator": null,
+            "melodi": "Sjösala vals",
+            "music": "E. Taube",
+            "fun_facts": null
+        },
+        {
+            "id": 103,
+            "genre": "visor till snaps",
+            "title": "Nikolajev",
+            "text": "Mitt namn är Nikolajev, kosmonaut ifrån Sovjet\noch jag åker runt jorden i min rymdraket.\nMen jag har råkat ut för en olycka stor,\nför jag glömde gå på muggen innan jag for.\n\nRef. Jag längtar hem, hem till min planet,\ntill fru och barn, hemma i Sovjet,\nmen mest till ett hus med ett hjärta på dörr.\nHem, hem till min planet!\nJag vill ej vara instängd i raket,\ndär det ej finns nåt hus med ett hjärta på dörr.\n\nMin kapsel är fylld utav fina instrument\nför att mäta kosmisk strålning och sånt som inte är känt.\nDär finns nästan allt vad jag behöver av komfort,\nmen en viktig detalj – det har dom glömt bort!\n\nJag längtar hem…\n\nJag lider de allra hemskaste kval,\njag känner mig vissen och sjuklig och skral.\nDet jäser i magen – nu tränger det på\noch jag undrar hur fasen detta ska gå?\n\nJag längtar hem…\n\nOch jag skall vara uppe i 64 varv,\nså har Hrustjov sagt – fast jag tycker det är larv,\nför det tar flera da’r innan jag kommer ner.\nNej fan vad det värker! Jag står inte ut mer!\n\nJag längtar hem…\n\nOch sen när jag landat ner på Röda torget\noch skall hälsas välkommen med parader och ståt,\ndå täcks jag inte stiga ut ur min raket,\nför jag (jo, ni vet nog!) och byxan är våt.\n\nJag längtar hem…",
+            "creator": "B. Johansson, Töttergren",
+            "melodi": "Sjösala vals",
+            "music": "A. Aleksandrov",
+            "fun_facts": null
+        },
+        {
+            "id": 104,
+            "genre": "visor till snaps",
+            "title": "Brännvinsrappen",
+            "text": "Å ja ha vari i Stockholm,\nå ja vari i Hull\nå alla ställen ja ha vari, ha ja vari full.\nTirilinttantej tiriliriljrilej!\n\nÅ ja ha vari i Paris\nå i Rom å sådär\nå alla ställen ja va till, va törsten ti besvär.\nTirilinttantej tiriliriljrilej!\n\nÅ ja ha vari i Viborg\ni Tallinn å Moskva.\nå krypa över röda torget tog mej en hel da.\nTirilinttantej tiriliriljrilej!\n\nMen nu e ja tibaka\nå hit i Helsingfors,\nmen likadant som utomlands, sir ögonen i kors!\nTirilinttantej tiriliriljrilej! ",
+            "creator": "B. Österberg",
+            "melodi": null,
+            "music": null,
+            "fun_facts": null
+        },
+        {
+            "id": 105,
+            "genre": "visor till snaps",
+            "title": "Mellanölskvartett",
+            "text": "Säg har ni känt nåt vått som är gott\nsom det ni nu har fått.\nNej, här har ni ett eau-de-vie\nmed humle och dumle i.\nDen klunken visste var den tog\nm-m-mm-mmm-mm.\nDet är det bästa som jag känt\nmed tre komma sex procent.\n\nDen finns på fik, i var butik\när lagrad, men ej antik.\nDen ställes fram med stor reklam\nför folk av frejdad stam.\nDet krävs ej legitimation\nm-m-mm-mmm-mm.\nNej, frihetsklockan högljutt slår,\nom man fyllt arton år.",
+            "creator": "Ur Chalmersspexet ”Sven Duva” 1965",
+            "melodi": "Mer hahn en neue Oberkeet, BWV 212",
+            "music": null,
+            "fun_facts": null
         }
     ]
 }
