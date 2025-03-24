@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TLK sångbok</title>
+    <title>TLK Songbook</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="tlklogo_blue.svg" type="image/svg+xml">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>TLK sångbok</h1>
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search by title or ID...">
-                <button id="searchButton">Search</button>
+            <div class="header-content">
+                <img src="./tlklogo-white.png" alt="TLK Logo" class="logo" id="tlkLogo">
+                <h1>TLK Songbook</h1>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search by title or ID...">
+                    <button id="searchButton">Search</button>
+                </div>
             </div>
         </header>
 
         <div class="main-content">
-            <aside class="categories">
+            <button id="menuToggle" class="hamburger-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <aside class="categories" id="categoriesMenu">
                 <h2>Categories</h2>
                 <div id="categoryList"></div>
             </aside>

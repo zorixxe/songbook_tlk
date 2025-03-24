@@ -2,18 +2,54 @@ let songs = [];
 let categories = new Set();
 let currentCategory = null;
 
+// Create overlay element
+const overlay = document.createElement('div');
+overlay.className = 'menu-overlay';
+document.body.appendChild(overlay);
+
+// Handle menu toggle
+function setupMobileMenu() {
+    const menuToggle = document.getElementById('menuToggle');
+    const categoriesMenu = document.getElementById('categoriesMenu');
+    
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        categoriesMenu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    });
+
+    // Close menu when clicking overlay
+    overlay.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        categoriesMenu.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.classList.remove('menu-open');
+    });
+
+    // Close menu when clicking a category on mobile
+    document.getElementById('categoryList').addEventListener('click', (e) => {
+        if (window.innerWidth <= 772) {
+            menuToggle.classList.remove('active');
+            categoriesMenu.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        }
+    });
+}
+
 // Load songs from JSON file
 async function loadSongs() {
     try {
         const response = await fetch('songs.json');
         const data = await response.json();
-        songs = data.songs; // Access the songs array from the data object
+        songs = data.songs;
         
         console.log('Loaded songs:', songs.length);
         
         // Extract unique categories
         songs.forEach(song => {
-            if (song.catagory) { // Changed to match JSON spelling
+            if (song.catagory) {
                 categories.add(song.catagory);
             }
         });
@@ -97,6 +133,7 @@ function renderSongs(songsToRender) {
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     loadSongs();
+    setupMobileMenu();
 
     // Add search event listeners
     const searchInput = document.getElementById('searchInput');
