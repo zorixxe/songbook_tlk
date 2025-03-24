@@ -38,11 +38,11 @@ jobs:
           ls -la deploy/
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: github-pages
           path: deploy
-          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     needs: build
@@ -51,6 +51,15 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          path: ./_site
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+        with:
+          artifact_name: github-pages
+          path: ./_site
