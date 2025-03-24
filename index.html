@@ -10,22 +10,24 @@
     <div class="container">
         <header>
             <div class="header-content">
-                <img src="./tlklogo-white.png" alt="TLK Logo" class="logo" id="tlkLogo">
-                <h1>TLK Songbook</h1>
+                <div class="logo-title">
+                    <a href="https://www.tlk.fi/" target="_blank">
+                        <img src="./tlklogo-white.png" alt="TLK Logo" class="logo" id="tlkLogo">
+                    </a>
+                    <h1>TLK Songbook</h1>
+                </div>
                 <div class="search-container">
                     <input type="text" id="searchInput" placeholder="Search by title or ID...">
-                    <button id="searchButton">Search</button>
+                    <button id="menuToggle" class="hamburger-menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
                 </div>
             </div>
         </header>
 
         <div class="main-content">
-            <button id="menuToggle" class="hamburger-menu">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
-            
             <aside class="categories" id="categoriesMenu">
                 <h2>Categories</h2>
                 <div id="categoryList"></div>
