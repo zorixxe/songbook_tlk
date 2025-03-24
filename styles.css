@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    padding: 8px 15px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 8px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchButton:hover {
+    background-color: #357abd;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.categories h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.category-item {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+}
+
+.category-item:hover {
+    background-color: #f0f0f0;
+}
+
+.category-item.active {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.songs-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.song-entry {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.song-header {
+    margin-bottom: 15px;
+}
+
+.song-id-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.song-melody {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.song-text {
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+    line-height: 1.4;
+}
+
+.song-text br {
+    display: block;
+    margin: 0;
+    line-height: inherit;
+}
+
+.song-text p {
+    margin: 1em 0;
+}
+
+.song-credits {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.song-fun-fact {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.repeat-start, .repeat-end {
+    color: #666;
+    font-style: italic;
+} 
