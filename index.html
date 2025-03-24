@@ -28,12 +28,45 @@
         </header>
 
         <div class="main-content">
-            <aside class="categories" id="categoriesMenu">
-                <h2>Categories</h2>
-                <div id="categoryList">
-                    <button class="category-button active" id="allSongs" onclick="filterByCategory('all')">All Songs</button>
-                </div>
-            </aside>
+            <div class="sidebar">
+                <aside class="categories" id="categoriesMenu">
+                    <h2>Categories</h2>
+                    <div id="categoryList">
+                        <button class="category-button active" id="allSongs" onclick="filterByCategory('all')">All Songs</button>
+                    </div>
+                </aside>
+
+                <aside class="credits-box">
+                    <h2>Credits</h2>
+                    <div class="credits-section">
+                        <p>Site made by:<br>
+                        Robin "Tildis" Tildeman</p>
+                    </div>
+                    
+                    <div class="credits-section">
+                        <p>Book made by Sångbokskomittén:</p>
+                        <ul>
+                            <li>Anton Doepel</li>
+                            <li>Cecilia Sved</li>
+                            <li>Edouard Jaquot</li>
+                            <li><a href="https://www.youtube.com/watch?v=RRwzvlhQJNs&t=2450s" target="_blank">Elias Nybondas</a></li>
+                            <li>Olivia Wermundsen</li>
+                            <li>Robin Tildeman</li>
+                            <li>Sebastian Geust</li>
+                            <li>Thomas Wredlund</li>
+                        </ul>
+                    </div>
+
+                    <div class="credits-section">
+                        <p>Korrekturläsare:</p>
+                        <ul>
+                            <li>Mamma Tildeman</li>
+                            <li>Mamma Geust</li>
+                            <li>Pinja Kettunen</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
 
             <main class="songs-container">
                 <div id="songList"></div>
