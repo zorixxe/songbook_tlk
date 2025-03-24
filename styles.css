@@ -112,7 +112,7 @@ h1 {
 .sidebar {
     position: sticky;
     top: 100px;
-    height: calc(100vh - 100px);
+    max-height: calc(100vh - 120px);
     overflow-y: auto;
 }
 
@@ -267,6 +267,7 @@ h1 {
     padding: 15px;
     border-radius: 8px;
     box-shadow: var(--card-shadow);
+    display: none; /* Hide by default */
 }
 
 .credits-box h2 {
@@ -333,6 +334,13 @@ h1 {
 
 .menu-overlay.active {
     display: block;
+}
+
+/* Only show credits if there's enough space */
+@media (min-height: 840px) {
+    .credits-box {
+        display: block;
+    }
 }
 
 @media (max-width: 772px) {
@@ -439,12 +447,71 @@ h1 {
     }
 
     .credits-box {
+        display: none !important; /* Always hide on mobile */
+    }
+}
+
+/* Additional styles for very small screens */
+@media (max-width: 410px) {
+    .logo-title {
+        flex: 0 0 auto;
+    }
+
+    .full-title {
         display: none;
+    }
+
+    .short-title {
+        display: inline;
+    }
+
+    h1 {
+        font-size: 1em;
+        width: 35px;
+    }
+
+    #searchInput {
+        width: 120px;
+    }
+
+    .header-content {
+        gap: 5px;
     }
 }
 
 @media (max-width: 768px) {
     .main-content {
         grid-template-columns: 1fr;
+    }
+}
+
+.short-title {
+    display: none;
+}
+
+@media (max-width: 410px) {
+    .logo-title {
+        flex: 0 0 auto;
+    }
+
+    .full-title {
+        display: none;
+    }
+
+    .short-title {
+        display: inline;
+    }
+
+    h1 {
+        font-size: 1em;
+        width: 35px;
+    }
+
+    #searchInput {
+        width: 120px;
+    }
+
+    .header-content {
+        gap: 5px;
     }
 } 
