@@ -17,7 +17,7 @@ function createSongElement(song) {
         
         ${song.fun_facts ? `
             <div class="song-fun-fact">
-                ${song.fun_facts}
+                ${formatSongText(song.fun_facts)}
             </div>
         ` : ''}
     `;
