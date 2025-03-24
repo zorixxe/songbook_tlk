@@ -40,7 +40,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: deploy
+          retention-days: 1
 
   deploy:
     needs: build
