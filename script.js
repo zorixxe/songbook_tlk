@@ -130,15 +130,26 @@ function renderSongs(songsToRender) {
     });
 }
 
+// Add this function at the top level
+function resetToAllSongs() {
+    currentCategory = null;
+    document.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+    document.querySelector('.category-item[data-category="all"]').classList.add('active');
+    filterAndRenderSongs();
+}
+
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     loadSongs();
     setupMobileMenu();
 
-    // Add search event listeners
+    // Add search event listener
     const searchInput = document.getElementById('searchInput');
-    const searchButton = document.getElementById('searchButton');
-
     searchInput.addEventListener('input', filterAndRenderSongs);
-    searchButton.addEventListener('click', filterAndRenderSongs);
+
+    // Add logo click handler
+    const logo = document.querySelector('.logo-title a');
+    logo.addEventListener('click', () => {
+        resetToAllSongs();
+    });
 }); 
