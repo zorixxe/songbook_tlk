@@ -27,22 +27,20 @@ jobs:
 
       - name: Create deployment directory
         run: |
-          mkdir -p deploy
+          mkdir -p _site
           echo "Creating deployment directory..."
-          cp -v index.html deploy/ || echo "Failed to copy index.html"
-          cp -v styles.css deploy/ || echo "Failed to copy styles.css"
-          cp -v script.js deploy/ || echo "Failed to copy script.js"
-          cp -v songView.js deploy/ || echo "Failed to copy songView.js"
-          cp -v songs.json deploy/ || echo "Failed to copy songs.json"
-          cp -v tlklogo-white.png deploy/ || echo "Failed to copy tlklogo-white.png"
-          ls -la deploy/
+          cp -v index.html _site/ || echo "Failed to copy index.html"
+          cp -v styles.css _site/ || echo "Failed to copy styles.css"
+          cp -v script.js _site/ || echo "Failed to copy script.js"
+          cp -v songView.js _site/ || echo "Failed to copy songView.js"
+          cp -v songs.json _site/ || echo "Failed to copy songs.json"
+          cp -v tlklogo-white.png _site/ || echo "Failed to copy tlklogo-white.png"
+          ls -la _site/
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
-          path: deploy
-          if-no-files-found: error
+          path: _site
 
   deploy:
     needs: build
@@ -51,15 +49,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: ./_site
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-        with:
-          artifact_name: github-pages
-          path: ./_site
