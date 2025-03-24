@@ -12,28 +12,31 @@ function setupMobileMenu() {
     const menuToggle = document.getElementById('menuToggle');
     const categoriesMenu = document.getElementById('categoriesMenu');
     
+    if (!menuToggle || !categoriesMenu) {
+        console.error('Menu elements not found');
+        return;
+    }
+
     menuToggle.addEventListener('click', () => {
+        console.log('Menu toggle clicked');
         menuToggle.classList.toggle('active');
         categoriesMenu.classList.toggle('active');
         overlay.classList.toggle('active');
-        document.body.classList.toggle('menu-open');
     });
 
-    // Close menu when clicking overlay
     overlay.addEventListener('click', () => {
+        console.log('Overlay clicked');
         menuToggle.classList.remove('active');
         categoriesMenu.classList.remove('active');
         overlay.classList.remove('active');
-        document.body.classList.remove('menu-open');
     });
 
-    // Close menu when clicking a category on mobile
     document.getElementById('categoryList').addEventListener('click', (e) => {
         if (window.innerWidth <= 772) {
+            console.log('Category clicked on mobile');
             menuToggle.classList.remove('active');
             categoriesMenu.classList.remove('active');
             overlay.classList.remove('active');
-            document.body.classList.remove('menu-open');
         }
     });
 }
@@ -75,13 +78,14 @@ function renderCategories() {
     
     console.log('Rendering categories:', Array.from(categories));
     
-    categoryList.innerHTML = '<div class="category-item" data-category="all">All Songs</div>';
+    // Create the All Songs button with category-button class
+    categoryList.innerHTML = '<button class="category-button category-item active" data-category="all">All Songs</button>';
     
     categories.forEach(category => {
         categoryList.innerHTML += `
-            <div class="category-item" data-category="${category}">
+            <button class="category-button category-item" data-category="${category}">
                 ${category}
-            </div>
+            </button>
         `;
     });
 
@@ -94,6 +98,15 @@ function renderCategories() {
             const category = item.dataset.category;
             currentCategory = category === 'all' ? null : category;
             filterAndRenderSongs();
+
+            // Close mobile menu if on mobile
+            if (window.innerWidth <= 772) {
+                const menuToggle = document.getElementById('menuToggle');
+                const categoriesMenu = document.getElementById('categoriesMenu');
+                menuToggle.classList.remove('active');
+                categoriesMenu.classList.remove('active');
+                overlay.classList.remove('active');
+            }
         });
     });
 }
