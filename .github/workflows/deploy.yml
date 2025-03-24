@@ -45,6 +45,13 @@ jobs:
         with:
           path: _site
 
+      # Optional: upload debug artifact for inspection
+      - name: Upload _site for debugging
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-site
+          path: _site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -55,3 +62,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+        with:
+          artifact_name: github-pages
