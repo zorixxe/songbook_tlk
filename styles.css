@@ -321,6 +321,16 @@ h1 {
     color: var(--primary-blue);
 }
 
+.credits-section p a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.credits-section p a:hover {
+    color: var(--primary-blue);
+}
+
 .menu-overlay {
     display: none;
     position: fixed;
@@ -337,7 +347,7 @@ h1 {
 }
 
 /* Only show credits if there's enough space */
-@media (min-height: 840px) {
+@media (min-height: 1315px) {
     .credits-box {
         display: block;
     }
