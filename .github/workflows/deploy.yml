@@ -7,16 +7,20 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -24,17 +28,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      # Create a clean deployment directory
+      - name: Create deployment directory
+        run: |
+          mkdir deploy
+          cp index.html deploy/
+          cp styles.css deploy/
+          cp script.js deploy/
+          cp songView.js deploy/
+          cp songs.json deploy/
+          cp tlklogo-white.png deploy/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          folder: .
-          clean: true
-          clean-exclude: |
-            add_song.py
-          files: |
-            index.html
-            styles.css
-            script.js
-            songView.js
-            songs.json
-            tlklogo-white.png
+          path: './deploy'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
