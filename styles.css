@@ -347,7 +347,7 @@ h1 {
 }
 
 /* Only show credits if there's enough space */
-@media (min-height: 1315px) {
+@media (min-height: 1270px) {
     .credits-box {
         display: block;
     }
