@@ -165,4 +165,48 @@ document.addEventListener('DOMContentLoaded', () => {
     logo.addEventListener('click', () => {
         resetToAllSongs();
     });
+});
+
+function createSongElement(song) {
+    const songElement = document.createElement('div');
+    songElement.className = 'song-entry';
+    
+    const header = document.createElement('div');
+    header.className = 'song-header';
+    
+    const title = document.createElement('div');
+    title.className = 'song-id-title';
+    title.textContent = `${song.id}. ${song.title}`;
+    header.appendChild(title);
+
+    // Add mini-credits when credits box is not visible
+    if (window.innerHeight < 1270) {
+        const miniCredits = document.createElement('div');
+        miniCredits.className = 'mini-credits';
+        miniCredits.innerHTML = 'Made by <a href="songbook_flowchart.pdf" target="_blank">Robin "Tildis" Tildeman</a>';
+        header.appendChild(miniCredits);
+    }
+
+    if (song.melody) {
+        const melody = document.createElement('div');
+        melody.className = 'song-melody';
+        melody.textContent = `Melody: ${song.melody}`;
+        header.appendChild(melody);
+    }
+    
+    songElement.appendChild(header);
+
+    // ... rest of the existing song creation code ...
+    
+    return songElement;
+}
+
+// Add window resize listener to update mini-credits visibility
+window.addEventListener('resize', () => {
+    const miniCredits = document.querySelectorAll('.mini-credits');
+    const shouldShow = window.innerHeight < 1270;
+    
+    miniCredits.forEach(credit => {
+        credit.style.display = shouldShow ? 'block' : 'none';
+    });
 }); 
