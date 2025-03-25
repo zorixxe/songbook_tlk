@@ -112,14 +112,14 @@ def add_song(last_genre=None):
         try:
             # Get song details with validation
             if last_genre:
-                print(f"Current genre is: {last_genre}")
-                change_genre = input("Would you like to change the genre? (y/n): ").lower().strip() == 'y'
+                print(f"Current catagory is: {last_genre}")
+                change_genre = input("Would you like to change the catagory? (y/n): ").lower().strip() == 'y'
                 if change_genre:
-                    genre = validate_input(input("Enter new genre: ").strip(), "Genre", max_length=100)
+                    genre = validate_input(input("Enter new catagory: ").strip(), "Genre", max_length=100)
                 else:
                     genre = last_genre
             else:
-                genre = validate_input(input("Enter genre: ").strip(), "Genre", max_length=100)
+                genre = validate_input(input("Enter catagory: ").strip(), "Genre", max_length=100)
             
             title = validate_input(input("Enter title: ").strip(), "Title")
             
@@ -143,7 +143,7 @@ def add_song(last_genre=None):
             # Create song dictionary with SQL-friendly structure
             song = {
                 "id": next_id,
-                "genre": genre,
+                "catagory": genre,
                 "title": title,
                 "text": text,
                 "creator": creator or None,  # Convert empty string to None
@@ -170,7 +170,7 @@ def main():
     print("=====================================")
     print("Note: This program includes data validation for SQL database compatibility.")
     print("Maximum lengths:")
-    print("- Genre: 100 characters")
+    print("- catagory: 100 characters")
     print("- Title: Unlimited (stored as TEXT)")
     print("- Creator: 200 characters (optional)")
     print("- Melodi: 100 characters (optional) - name of the melody")
