@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  songbook:
+    image: songbook-tlk
+    container_name: songbook-tlk
+    restart: unless-stopped
+    ports:
+      - "80:80"  # Change this if you want to use a different port
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - songbook-network
+
+networks:
+  songbook-network:
+    driver: bridge 

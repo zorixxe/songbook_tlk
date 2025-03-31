@@ -1,0 +1,44 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Development files
+README.md
+*.md
+*.log
+.env
+.env.*
+songs.json.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Node modules (if you add any in the future)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Test files
+*.test.js
+*.spec.js
+test/
+tests/
+
+# Documentation
+docs/
+*.pdf
+!songbook_flowchart.pdf  # Keep the flowchart PDF 
