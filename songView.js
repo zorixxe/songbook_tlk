@@ -1,3 +1,6 @@
+// Base path for all assets
+const BASE_PATH = '/sangbok';
+
 function createSongElement(song) {
     const songDiv = document.createElement('div');
     songDiv.className = 'song-entry';
@@ -41,4 +44,20 @@ function formatSongText(text) {
         .map(line => line.trim())
         .join('<br>')
         .replace(/<br><p><br>/g, '</p><p>');
-} 
+}
+
+// Show song details
+function showSong(song) {
+    const songView = document.getElementById('songView');
+    songView.innerHTML = `
+        <h2>${song.title}</h2>
+        <p class="category">${song.category}</p>
+        <div class="song-content">
+            ${song.content}
+        </div>
+    `;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Export the function for use in script.js
+window.showSong = showSong; 

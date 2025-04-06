@@ -2,6 +2,9 @@ let songs = [];
 let categories = new Set();
 let currentCategory = null;
 
+// Base path for all assets
+const BASE_PATH = '/sangbok';
+
 // Create overlay element
 const overlay = document.createElement('div');
 overlay.className = 'menu-overlay';
@@ -44,27 +47,12 @@ function setupMobileMenu() {
 // Load songs from JSON file
 async function loadSongs() {
     try {
-        const response = await fetch('songs.json');
-        const data = await response.json();
-        songs = data.songs;
-        
-        console.log('Loaded songs:', songs.length);
-        
-        // Extract unique categories
-        songs.forEach(song => {
-            if (song.catagory) {
-                categories.add(song.catagory);
-            }
-        });
-        
-        console.log('Found categories:', Array.from(categories));
-        
-        // Initialize the UI
-        renderCategories();
-        renderSongs(songs);
+        const response = await fetch(`${BASE_PATH}/songs.json`);
+        const songs = await response.json();
+        return songs;
     } catch (error) {
         console.error('Error loading songs:', error);
-        console.error('Error details:', error.message);
+        return [];
     }
 }
 
@@ -118,7 +106,7 @@ function filterAndRenderSongs() {
 
     // Apply category filter
     if (currentCategory) {
-        filteredSongs = filteredSongs.filter(song => song.catagory === currentCategory); // Changed to match JSON spelling
+        filteredSongs = filteredSongs.filter(song => song.category === currentCategory);
     }
 
     // Apply search filter
@@ -152,20 +140,89 @@ function resetToAllSongs() {
 }
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', () => {
-    loadSongs();
-    setupMobileMenu();
+async function init() {
+    const songs = await loadSongs();
+    if (songs.length === 0) {
+        console.error('No songs loaded');
+        return;
+    }
 
-    // Add search event listener
-    const searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', filterAndRenderSongs);
-
-    // Add logo click handler
-    const logo = document.querySelector('.logo-title a');
-    logo.addEventListener('click', () => {
-        resetToAllSongs();
+    // Populate categories
+    const categories = ['all', ...new Set(songs.map(song => song.category))];
+    const categoriesContainer = document.querySelector('.categories');
+    
+    categories.forEach(category => {
+        const button = document.createElement('button');
+        button.className = 'category-button';
+        button.textContent = category === 'all' ? 'All Songs' : category;
+        button.onclick = () => filterByCategory(category);
+        categoriesContainer.appendChild(button);
     });
-});
+
+    // Set up search functionality
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', (e) => filterSongs(e.target.value));
+
+    // Show all songs initially
+    filterByCategory('all');
+}
+
+// Filter songs by category
+function filterByCategory(category) {
+    const buttons = document.querySelectorAll('.category-button');
+    buttons.forEach(button => {
+        button.classList.toggle('active', button.textContent === (category === 'all' ? 'All Songs' : category));
+    });
+
+    const filteredSongs = category === 'all' 
+        ? songs 
+        : songs.filter(song => song.category === category);
+    
+    displaySongs(filteredSongs);
+}
+
+// Filter songs by search term
+function filterSongs(searchTerm) {
+    const filteredSongs = songs.filter(song => 
+        song.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        song.category.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    
+    displaySongs(filteredSongs);
+}
+
+// Display songs in the song list
+function displaySongs(songs) {
+    const songList = document.getElementById('songList');
+    songList.innerHTML = '';
+
+    songs.forEach(song => {
+        const songElement = document.createElement('div');
+        songElement.className = 'song-item';
+        songElement.innerHTML = `
+            <h3>${song.title}</h3>
+            <p class="category">${song.category}</p>
+        `;
+        songElement.onclick = () => showSong(song);
+        songList.appendChild(songElement);
+    });
+}
+
+// Show song details
+function showSong(song) {
+    const songView = document.getElementById('songView');
+    songView.innerHTML = `
+        <h2>${song.title}</h2>
+        <p class="category">${song.category}</p>
+        <div class="song-content">
+            ${song.content}
+        </div>
+    `;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Start the application
+init();
 
 function createSongElement(song) {
     const songElement = document.createElement('div');

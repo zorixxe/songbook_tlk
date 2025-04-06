@@ -4,77 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLK Songbook</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/sangbok/styles.css">
+    <link rel="icon" type="image/png" href="/sangbok/assets/favicon.png">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-content">
                 <div class="logo-title">
-                    <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
-                        <img src="./tlklogo-white.png" alt="TLK Logo" class="logo" id="tlkLogo">
-                    </a>
+                    <img src="/sangbok/assets/logo.png" alt="TLK Logo" class="logo">
                     <h1><span class="full-title">TLK Songbook</span><span class="short-title">TLK</span></h1>
                 </div>
                 <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Search">
-                    <button id="menuToggle" class="hamburger-menu">
-                        <span class="hamburger-line"></span>
-                        <span class="hamburger-line"></span>
-                        <span class="hamburger-line"></span>
-                    </button>
+                    <input type="text" id="searchInput" placeholder="Search songs...">
                 </div>
             </div>
         </header>
 
         <div class="main-content">
             <div class="sidebar">
-                <aside class="categories" id="categoriesMenu">
-                    <h2>Categories</h2>
-                    <div id="categoryList">
-                        <button class="category-button active" id="allSongs" onclick="filterByCategory('all')">All Songs</button>
-                    </div>
-                </aside>
-
-                <aside class="credits-box">
+                <div class="categories">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+                <div class="credits-box">
                     <h2>Credits</h2>
-                    <div class="credits-section">
-                        <p>Site made by:<br>
-                        <a href="songbook_flowchart.pdf" target="_blank">Robin "Tildis" Tildeman</a></p>
-                    </div>
-                    
-                    <div class="credits-section">
-                        <p><a href="https://www.tlk.fi/medlemmar/sangbok/" target="_blank">Book made by Sångbokskomittén:</a></p>
-                        <ul>
-                            <li><a href="https://www.youtube.com/watch?v=ndxUXwsfkwQ" target="_blank">Anton Doepel</a></li>
-                            <li>Cecilia Sved</li>
-                            <li>Edouard Jaquot</li>
-                            <li><a href="https://www.youtube.com/watch?v=RRwzvlhQJNs&themeRefresh=1" target="_blank">Elias Nybondas</a></li>
-                            <li>Olivia Wermundsen</li>
-                            <li><a href="songbook_flowchart.pdf" target="_blank">Robin Tildeman</a></li>
-                            <li>Sebastian Geust</li>
-                            <li>Thomas Wredlund</li>
-                        </ul>
-                    </div>
-
-                    <div class="credits-section">
-                        <p>Korrekturläsare:</p>
-                        <ul>
-                            <li>Mamma Tildeman</li>
-                            <li>Mamma Geust</li>
-                            <li>Pinja Kettunen</li>
-                        </ul>
-                    </div>
-                </aside>
+                    <p><a href="https://www.tlk.fi/medlemmar/sangbok/" target="_blank">Book made by Sångbokskomittén:</a></p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=ndxUXwsfkwQ" target="_blank">Anton Doepel</a></li>
+                        <li>Elias Nybondas</li>
+                        <li><a href="/sangbok/songbook_flowchart.pdf" target="_blank">Robin Tildeman</a></li>
+                    </ul>
+                    <p>Website made by:</p>
+                    <ul>
+                        <li><a href="/sangbok/songbook_flowchart.pdf" target="_blank">Robin Tildeman</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <main class="songs-container">
-                <div id="songList"></div>
-            </main>
+            <div class="song-content">
+                <div id="songView" class="song-view">
+                    <h2>Select a song from the categories</h2>
+                </div>
+            </div>
         </div>
     </div>
-
-    <script src="script.js"></script>
-    <script src="songView.js"></script>
+    <script src="/sangbok/script.js"></script>
+    <script src="/sangbok/songView.js"></script>
 </body>
 </html> 
