@@ -2,22 +2,13 @@
 
 An online songbook for **Tekniska läroverkets kamratförbund r.f.** (TLK) - a modern, responsive web application that brings the traditional songbook into the digital age.
 
-🌐 **Live Demo:** [https://zorixxe.github.io/songbook_tlk/](https://zorixxe.github.io/songbook_tlk/)
+**Live Demo:** [https://zorixxe.github.io/songbook_tlk/](https://zorixxe.github.io/songbook_tlk/)
 
-## 📖 About
+##  About
 
 The TLK Songbook is a comprehensive collection of songs curated by Sångbokskomittén, featuring traditional student songs, drinking songs, and other cultural pieces important to the TLK association. This web application makes the songbook accessible on any device, anywhere, anytime.
 
-## ✨ Features
-
-- **🎯 Smart Search**: Find songs quickly with instant search functionality
-- **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **🏷️ Category Organization**: Songs are organized into logical categories for easy browsing
-- **🎨 Modern UI**: Clean, intuitive interface with the iconic TLK logo
-- **📱 Mobile-First**: Optimized for mobile use with hamburger menu navigation
-- **🔍 Song Management**: Easy addition of new songs with the included Python script
-
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -83,22 +74,7 @@ The script will guide you through the process of adding:
 - **Functionality**: Edit `script.js` for new features
 - **Songs**: Update `songs.json` directly or use the Python script
 
-## 🎨 Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Data**: JSON for song storage
-- **Tools**: Python for song management
-- **Design**: Responsive design principles
-- **Hosting**: GitHub Pages
-
-## 👥 Contributors
-
-### Development Team
-- **Robin "Tildis" Tildeman** - Site development and design
-
-
-
-## 🌐 Links
+## Links
 
 - **Live Songbook**: [https://zorixxe.github.io/songbook_tlk/](https://zorixxe.github.io/songbook_tlk/)
 - **TLK Website**: [https://www.tlk.fi/](https://www.tlk.fi/)
