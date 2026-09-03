@@ -1,4 +1,4 @@
-# 🎵 TLK Songbook
+# TLK Songbook
 
 An online songbook for **Tekniska läroverkets kamratförbund r.f.** (TLK) - a modern, responsive web application that brings the traditional songbook into the digital age.
 
